@@ -14,7 +14,7 @@ const Product = ({ post }) => {
     toast.success("added in cart")
   };
   return (
-    <div className="flex flex-col items-center justify-between hover:scale-110 trasition duration-300 ease-in gap-3 mt-10 ml-5 rounded-xl outline">
+    <div className="flex flex-col items-center justify-between hover:scale-110 trasition duration-300 ease-in gap-3 mt-10 ml-5 rounded-xl outline bg-gradient-to-l from-gray-400 to-gray-700">
       <div>
         <p className=" text-gray-700 text-lg text-left mt-1">{post.title}</p>
       </div>
@@ -39,7 +39,7 @@ const Product = ({ post }) => {
           ) : (
             <button
               className=" text-gray-700 border-2 border-gray-700 rounded-full text-[12px] p-1 px-3 hover:bg-gray-700 hover:text-white"
-               onClick={additem}
+              onClick={additem}
             >
               add too cart
             </button>

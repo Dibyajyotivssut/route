@@ -5,7 +5,7 @@ import "../design/navbar.css"
 
 const Navbar = () => {
   return (
-    <div className="flex   justify-between items-center h-20 max-w-auto">
+    <div className="flex   justify-between items-center h-20 max-w-auto bg-gradient-to-l from-gray-400 to-gray-700">
       <div className="w-16 ml-24">
         <img
           src="https://thumbs.dreamstime.com/b/lets-shopping-logo-design-template-shop-icon-135610500.jpg"
