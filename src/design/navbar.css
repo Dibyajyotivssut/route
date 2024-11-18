@@ -1,0 +1,14 @@
+.nav{
+    background-color: rgb(221, 238, 232);
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.2em;
+}
+.navchild{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 14px;
+}
